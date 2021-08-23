@@ -295,15 +295,6 @@ Um sowohl längerfristige Parteineigungen als auch aktuelle politische Stimmunge
 
       <div id="pvs2017">
         <dd>
-          Munzert,&#32;
-          Stötzer,&#32;
-          Gschwend,&#32;
-          Neunhoeffer&#32;&amp;&#32;Sternberg
-
-          
-          (2017)</dd>
-
-        <dd>
           
 
 
@@ -347,15 +338,6 @@ Um sowohl längerfristige Parteineigungen als auch aktuelle politische Stimmunge
       </div>
 
       <div id="pa2019">
-        <dd>
-          Stoetzer,&#32;
-          Neunhoeffer,&#32;
-          Gschwend,&#32;
-          Munzert&#32;&amp;&#32;Sternberg
-
-          
-          (2019)</dd>
-
         <dd>
           
 
@@ -401,14 +383,6 @@ Um sowohl längerfristige Parteineigungen als auch aktuelle politische Stimmunge
 
       <div id="pvs2020">
         <dd>
-          Neunhoeffer,&#32;
-          Gschwend,&#32;
-          Munzert&#32;&amp;&#32;Stoetzer
-
-          
-          (2020)</dd>
-
-        <dd>
           
 
 
@@ -449,15 +423,6 @@ Um sowohl längerfristige Parteineigungen als auch aktuelle politische Stimmunge
       </div>
 
       <div id="codepa2019">
-        <dd>
-          Neunhoeffer,&#32;
-          Stoetzer,&#32;
-          Gschwend,&#32;
-          Munzert&#32;&amp;&#32;Sternberg
-
-          
-          (2018)</dd>
-
         <dd>
           
 
@@ -502,15 +467,6 @@ Um sowohl längerfristige Parteineigungen als auch aktuelle politische Stimmunge
       </div>
 
       <div id="codeps2021">
-        <dd>
-          Neunhoeffer,&#32;
-          Gschwend,&#32;
-          Müller,&#32;
-          Munzert&#32;&amp;&#32;Stoetzer
-
-          
-          (2021)</dd>
-
         <dd>
           
 
@@ -560,8 +516,8 @@ Um sowohl längerfristige Parteineigungen als auch aktuelle politische Stimmunge
 
 <h3 id="details-zu-den-modellen">Details zu den Modellen<a hidden class="anchor" aria-hidden="true" href="#details-zu-den-modellen">#</a></h3>
 <h4 id="das-zweitstimmenmodell">Das Zweitstimmenmodell<a hidden class="anchor" aria-hidden="true" href="#das-zweitstimmenmodell">#</a></h4>
-<p>Die strukturelle Komponente unseres Modells greift auf Faktoren zurück, die sich bereits in der Vergangenheit (seit 1949) als relevant für die Vorhersage von Wahlergebnissen erwiesen haben. Dazu gehören etwa das Abschneiden von Parteien bei vergangenen Wahlen, historische Umfragedaten und die Information darüber, ob eine Partei den Kanzler oder die Kanzlerin stellte. In anderen Worten lernt die strukturelle Komponente aus den Regelmäßigkeiten aller vergangenen Bundestagswahlen. Das frühzeitige Vorhandensein dieser Informationen (bereits 200 Tage vor der Wahl) erlaubt uns so eine frühe Vorhersage des Wahlausgangs.</p>
-<p>Die strukturelle Komponente allein ist jedoch oft nicht ausreichend, um kurzfristige Neujustierungen im Parteiensystem oder Schwankungen in der politischen Stimmung abzubilden. Wir benutzen deshalb veröffentlichte Werte der sogenannten Sonntagsfrage, um der Dynamik einer Wahl Rechnung zu tragen. Vereinfacht gesagt mischen wir dabei für die eigentliche Prognose die Informationen über die Regelmäßigkeiten der vergangenen Wahlen mit dem was wir gerade in den Umfragen beobachten können. Während die strukturelle Komponente des Modells stabil bleibt, aktualisieren wir unsere Vorhersage mit jeder neu veröffentlichten Umfrage.</p>
+<p>Die strukturelle Komponente unseres Modells greift auf Faktoren zurück, die sich bereits in der Vergangenheit (seit 1949) als relevant für die Vorhersage von Wahlergebnissen erwiesen haben. Dazu gehören etwa das Abschneiden von Parteien bei vergangenen Wahlen, historische Umfragedaten und die Information darüber, ob eine Partei den Kanzler oder die Kanzlerin stellte. Mit anderen Worten lernt die strukturelle Komponente aus den Regelmäßigkeiten aller vergangenen Bundestagswahlen. Das frühzeitige Vorhandensein dieser Informationen (bereits 200 Tage vor der Wahl) erlaubt uns so eine frühe Vorhersage des Wahlausgangs.</p>
+<p>Die strukturelle Komponente allein ist jedoch oft nicht ausreichend, um kurzfristige Neujustierungen im Parteiensystem oder Schwankungen in der politischen Stimmung abzubilden. Wir benutzen deshalb veröffentlichte Werte der sogenannten Sonntagsfrage, um der Dynamik einer Wahl Rechnung zu tragen. Vereinfacht gesagt mischen wir dabei für die eigentliche Prognose die Informationen über die Regelmäßigkeiten der vergangenen Wahlen mit dem, was wir gerade in den Umfragen beobachten können. Während die strukturelle Komponente des Modells stabil bleibt, aktualisieren wir unsere Vorhersage mit jeder neu veröffentlichten Umfrage.</p>
 <p>Je nachdem, wie weit der Wahlzeitpunkt in der Zukunft liegt, werden die beiden Komponenten unseres Modells unterschiedlich stark gewichtet. Liegt die Wahl beispielsweise noch sehr weit in der Zukunft, ist die allein auf Umfragen basierende Vorhersage sehr unsicher, da diese über Zeit sehr unbeständig sind. Dementsprechend wird zunächst der Vorhersage des strukturellen Modells mehr Gewicht beigemessen. Rückt der Wahltag näher, steigt das Vertrauen des Modells in die Umfragekomponente, da diese präziser wird. Unsere Prognose stellt damit meist einen Kompromiss dar zwischen dem, was man auf Basis der historischen Daten erwarten würde, und dem, was man aktuell in den Umfragen beobachtet.</p>
 <p>Unser Modell wird über einen sogenannten MCMC-Algorithmus geschätzt. Dabei wird – bildlich gesprochen – der Wahlausgang viele Male simuliert; zum Beispiel 100.000 mal. Aus diesen Simulationen lassen sich dann Wahrscheinlichkeiten für alle Ereignisse berechnen, die unmittelbar mit den vorhergesagten Parteianteilen in Verbindung stehen. Liegt beispielsweise in etwa 80.000 der Simulationen die CDU/CSU vor der SPD, entspricht dies einer geschätzten Wahrscheinlichkeit von 80%, dass die CDU/CSU bei der Wahl besser als die SPD abschneidet.</p>
 <h4 id="das-wahlkreismodell">Das Wahlkreismodell<a hidden class="anchor" aria-hidden="true" href="#das-wahlkreismodell">#</a></h4>
